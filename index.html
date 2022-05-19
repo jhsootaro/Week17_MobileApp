@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blue Clock</title>
+    <link rel="stylesheet" href="stopwatch.css">
+    <script src="stopwatch.js"></script>
+	
+		
+</head>
+<body> 
+    <main>
+				<!--Mobile Navigation with "hamburger" icon-->
+		<nav class="mobile-nav">
+			
+        <h1>clock with stopwatch <br> + forecast</h1>
+        <fieldset>
+            <legend>current time</legend>
+            <span id="hours"></span>&nbsp;
+            <span id="minutes"></span>&nbsp;
+            <span id="seconds"></span>
+            <span id="ampm"></span>
+		
+        </fieldset>
+        		
+		
+	<div class="container">
+		<div class="watch">
+			<div class="outer-circle">
+			<div class="inner-circle">
+     
+			<span id="get_hours">00:</span>&nbsp; 
+            <span id="get_minutes">00:</span>&nbsp; 
+            <span id="get_seconds">000</span>
+					
+		</div>
+		</div>
+			
+	</div>
+		
+            <button id="btn-start">start</button>
+            <button id="btn-stop">stop</button>
+            <button id="btn-reset">reset</button>
+
+		</div>
+	
+					<div class="input">
+	<input type="text" class="inputValue" placeholder="enter a city" style="letter-spacing:2px;">
+	<input type="submit" value="submit" class="button" style="letter-spacing:2px;">
+	</div>
+		
+		<div class="display">
+			<h1 class="cityName"></h1>
+			<p class="desc"
+			   style="color:white; font-family:sans-serif; font-size:25px; letter-spacing:2px; text-align:center;">
+			</p>
+			<p class="temp" 
+			   style="color:white; font-family:sans-serif; font-size:25px; letter-spacing:2px; text-align:center; margin-bottom:30%;">
+			</p>
+		</div>
+	  
+		
+</nav>
+    </main>   
+	
+	 <script src="weather.js"></script>
+		
+	
+</body>
+</html>
